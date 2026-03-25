@@ -1,0 +1,427 @@
+"MONTH_YEAR","CAMPAIGN_SITE","BROADSOURCE","LEADS","HIRED","TOTAL_LEADS_TO_HIRED_RATE"
+"2025-01","Iqor Bacolod","Advertising",21,6,0.2857142857
+"2025-01","Iqor Bacolod","Job Boards",10,3,0.3
+"2025-01","Iqor Bacolod","Others",129,15,0.1162790698
+"2025-01","Iqor Bacolod","Recruitment Event",22,6,0.2727272727
+"2025-01","Iqor Bacolod","Referrals",775,66,0.08516129032
+"2025-01","Iqor Bacolod","Social Media",1583,146,0.09222994315
+"2025-01","Iqor Davao","Advertising",49,5,0.1020408163
+"2025-01","Iqor Davao","Job Boards",20,3,0.15
+"2025-01","Iqor Davao","Others",103,13,0.1262135922
+"2025-01","Iqor Davao","Recruitment Event",18,0,0
+"2025-01","Iqor Davao","Referrals",370,18,0.04864864865
+"2025-01","Iqor Davao","Social Media",466,43,0.09227467811
+"2025-01","Iqor Fairview","Advertising",36,1,0.02777777778
+"2025-01","Iqor Fairview","Job Boards",239,11,0.0460251046
+"2025-01","Iqor Fairview","Others",347,9,0.02593659942
+"2025-01","Iqor Fairview","Recruitment Event",15,0,0
+"2025-01","Iqor Fairview","Referrals",914,40,0.04376367615
+"2025-01","Iqor Fairview","Social Media",706,27,0.03824362606
+"2025-02","Iqor Bacolod","Advertising",12,1,0.08333333333
+"2025-02","Iqor Bacolod","Job Boards",12,2,0.1666666667
+"2025-02","Iqor Bacolod","Others",132,10,0.07575757576
+"2025-02","Iqor Bacolod","Recruitment Event",74,7,0.09459459459
+"2025-02","Iqor Bacolod","Referrals",354,33,0.09322033898
+"2025-02","Iqor Bacolod","Social Media",811,69,0.08508014797
+"2025-02","Iqor Davao","Advertising",27,2,0.07407407407
+"2025-02","Iqor Davao","Job Boards",186,12,0.06451612903
+"2025-02","Iqor Davao","Others",66,11,0.1666666667
+"2025-02","Iqor Davao","Recruitment Event",17,2,0.1176470588
+"2025-02","Iqor Davao","Referrals",339,30,0.08849557522
+"2025-02","Iqor Davao","Social Media",1671,114,0.06822262118
+"2025-02","Iqor Fairview","Advertising",25,3,0.12
+"2025-02","Iqor Fairview","Job Boards",159,6,0.03773584906
+"2025-02","Iqor Fairview","Others",354,15,0.04237288136
+"2025-02","Iqor Fairview","Recruitment Event",14,0,0
+"2025-02","Iqor Fairview","Referrals",855,41,0.04795321637
+"2025-02","Iqor Fairview","Social Media",428,27,0.06308411215
+"2025-03","Iqor Bacolod","Advertising",14,0,0
+"2025-03","Iqor Bacolod","Job Boards",12,3,0.25
+"2025-03","Iqor Bacolod","Others",78,8,0.1025641026
+"2025-03","Iqor Bacolod","Recruitment Event",20,3,0.15
+"2025-03","Iqor Bacolod","Referrals",263,40,0.1520912548
+"2025-03","Iqor Bacolod","Social Media",1418,90,0.0634696756
+"2025-03","Iqor Davao","Advertising",18,6,0.3333333333
+"2025-03","Iqor Davao","Job Boards",92,10,0.1086956522
+"2025-03","Iqor Davao","Others",66,9,0.1363636364
+"2025-03","Iqor Davao","Recruitment Event",6,1,0.1666666667
+"2025-03","Iqor Davao","Referrals",478,36,0.07531380753
+"2025-03","Iqor Davao","Social Media",1542,90,0.05836575875
+"2025-03","Iqor Fairview","Advertising",17,2,0.1176470588
+"2025-03","Iqor Fairview","Job Boards",220,16,0.07272727273
+"2025-03","Iqor Fairview","Others",354,24,0.06779661017
+"2025-03","Iqor Fairview","Recruitment Event",12,1,0.08333333333
+"2025-03","Iqor Fairview","Referrals",700,44,0.06285714286
+"2025-03","Iqor Fairview","Social Media",444,32,0.07207207207
+"2025-04","Iqor Bacolod","Advertising",14,4,0.2857142857
+"2025-04","Iqor Bacolod","Job Boards",11,4,0.3636363636
+"2025-04","Iqor Bacolod","Others",19,7,0.3684210526
+"2025-04","Iqor Bacolod","Recruitment Event",29,2,0.06896551724
+"2025-04","Iqor Bacolod","Referrals",252,23,0.09126984127
+"2025-04","Iqor Bacolod","Social Media",1192,74,0.06208053691
+"2025-04","Iqor Davao","Advertising",35,7,0.2
+"2025-04","Iqor Davao","Job Boards",126,15,0.119047619
+"2025-04","Iqor Davao","Others",99,24,0.2424242424
+"2025-04","Iqor Davao","Recruitment Event",47,8,0.170212766
+"2025-04","Iqor Davao","Referrals",597,58,0.09715242881
+"2025-04","Iqor Davao","Social Media",1955,190,0.09718670077
+"2025-04","Iqor Fairview","Advertising",26,3,0.1153846154
+"2025-04","Iqor Fairview","Job Boards",501,25,0.0499001996
+"2025-04","Iqor Fairview","Others",816,60,0.07352941176
+"2025-04","Iqor Fairview","Recruitment Event",17,4,0.2352941176
+"2025-04","Iqor Fairview","Referrals",714,43,0.06022408964
+"2025-04","Iqor Fairview","Social Media",512,48,0.09375
+"2025-05","Iqor Bacolod","Advertising",11,1,0.09090909091
+"2025-05","Iqor Bacolod","Job Boards",13,2,0.1538461538
+"2025-05","Iqor Bacolod","Others",94,11,0.1170212766
+"2025-05","Iqor Bacolod","Recruitment Event",60,5,0.08333333333
+"2025-05","Iqor Bacolod","Referrals",242,25,0.1033057851
+"2025-05","Iqor Bacolod","Social Media",1726,74,0.04287369641
+"2025-05","iQor Clark","Advertising",9,3,0.3333333333
+"2025-05","iQor Clark","Job Boards",234,54,0.2307692308
+"2025-05","iQor Clark","Others",76,22,0.2894736842
+"2025-05","iQor Clark","Recruitment Event",34,20,0.5882352941
+"2025-05","iQor Clark","Referrals",10323,154,0.01491814395
+"2025-05","iQor Clark","Social Media",2339,108,0.04617357845
+"2025-05","Iqor Davao","Advertising",60,4,0.06666666667
+"2025-05","Iqor Davao","Job Boards",45,8,0.1777777778
+"2025-05","Iqor Davao","Others",139,25,0.1798561151
+"2025-05","Iqor Davao","Recruitment Event",152,25,0.1644736842
+"2025-05","Iqor Davao","Referrals",593,49,0.0826306914
+"2025-05","Iqor Davao","Social Media",2381,131,0.05501889962
+"2025-05","Iqor Fairview","Advertising",44,2,0.04545454545
+"2025-05","Iqor Fairview","Job Boards",922,25,0.02711496746
+"2025-05","Iqor Fairview","Others",905,60,0.06629834254
+"2025-05","Iqor Fairview","Recruitment Event",15,2,0.1333333333
+"2025-05","Iqor Fairview","Referrals",1009,58,0.0574826561
+"2025-05","Iqor Fairview","Social Media",716,52,0.07262569832
+"2025-06","Iqor Bacolod","Advertising",13,0,0
+"2025-06","Iqor Bacolod","Job Boards",42,11,0.2619047619
+"2025-06","Iqor Bacolod","Others",315,40,0.126984127
+"2025-06","Iqor Bacolod","Recruitment Event",53,2,0.03773584906
+"2025-06","Iqor Bacolod","Referrals",722,53,0.07340720222
+"2025-06","Iqor Bacolod","Social Media",2101,98,0.04664445502
+"2025-06","iQor Clark","Advertising",116,20,0.1724137931
+"2025-06","iQor Clark","Job Boards",595,89,0.1495798319
+"2025-06","iQor Clark","Others",104,24,0.2307692308
+"2025-06","iQor Clark","Recruitment Event",444,49,0.1103603604
+"2025-06","iQor Clark","Referrals",3396,379,0.1116018846
+"2025-06","iQor Clark","Social Media",19610,481,0.02452830189
+"2025-06","Iqor Davao","Advertising",8,1,0.125
+"2025-06","Iqor Davao","Job Boards",26,6,0.2307692308
+"2025-06","Iqor Davao","Others",406,49,0.1206896552
+"2025-06","Iqor Davao","Recruitment Event",4,2,0.5
+"2025-06","Iqor Davao","Referrals",482,42,0.08713692946
+"2025-06","Iqor Davao","Social Media",1355,63,0.04649446494
+"2025-06","Iqor Fairview","Advertising",6,2,0.3333333333
+"2025-06","Iqor Fairview","Job Boards",843,24,0.02846975089
+"2025-06","Iqor Fairview","Others",668,78,0.1167664671
+"2025-06","Iqor Fairview","Recruitment Event",15,3,0.2
+"2025-06","Iqor Fairview","Referrals",893,56,0.06270996641
+"2025-06","Iqor Fairview","Social Media",3326,73,0.02194828623
+"2025-07","Iqor Bacolod","Advertising",23,1,0.04347826087
+"2025-07","Iqor Bacolod","Job Boards",34,8,0.2352941176
+"2025-07","Iqor Bacolod","Others",50,2,0.04
+"2025-07","Iqor Bacolod","Recruitment Event",122,7,0.05737704918
+"2025-07","Iqor Bacolod","Referrals",475,40,0.08421052632
+"2025-07","Iqor Bacolod","Social Media",2655,179,0.06741996234
+"2025-07","iQor Clark","Advertising",87,15,0.1724137931
+"2025-07","iQor Clark","Job Boards",349,63,0.1805157593
+"2025-07","iQor Clark","Others",137,10,0.07299270073
+"2025-07","iQor Clark","Recruitment Event",915,110,0.1202185792
+"2025-07","iQor Clark","Referrals",2759,256,0.09278724175
+"2025-07","iQor Clark","Social Media",15366,424,0.027593388
+"2025-07","Iqor Davao","Advertising",36,3,0.08333333333
+"2025-07","Iqor Davao","Job Boards",48,16,0.3333333333
+"2025-07","Iqor Davao","Others",102,5,0.04901960784
+"2025-07","Iqor Davao","Recruitment Event",30,2,0.06666666667
+"2025-07","Iqor Davao","Referrals",529,38,0.07183364839
+"2025-07","Iqor Davao","Social Media",1220,134,0.1098360656
+"2025-07","Iqor Fairview","Advertising",49,9,0.1836734694
+"2025-07","Iqor Fairview","Job Boards",1506,65,0.04316069057
+"2025-07","Iqor Fairview","Others",171,9,0.05263157895
+"2025-07","Iqor Fairview","Recruitment Event",187,44,0.2352941176
+"2025-07","Iqor Fairview","Referrals",1673,94,0.05618649133
+"2025-07","Iqor Fairview","Social Media",4159,171,0.0411156528
+"2025-08","Iqor Bacolod","Advertising",14,2,0.1428571429
+"2025-08","Iqor Bacolod","Job Boards",16,2,0.125
+"2025-08","Iqor Bacolod","Others",52,4,0.07692307692
+"2025-08","Iqor Bacolod","Recruitment Event",105,12,0.1142857143
+"2025-08","Iqor Bacolod","Referrals",369,33,0.08943089431
+"2025-08","Iqor Bacolod","Social Media",1829,135,0.07381082559
+"2025-08","iQor Clark","Advertising",101,13,0.1287128713
+"2025-08","iQor Clark","Job Boards",752,80,0.1063829787
+"2025-08","iQor Clark","Others",123,15,0.1219512195
+"2025-08","iQor Clark","Recruitment Event",802,90,0.1122194514
+"2025-08","iQor Clark","Referrals",2369,229,0.0966652596
+"2025-08","iQor Clark","Social Media",16872,378,0.02240398293
+"2025-08","Iqor Davao","Advertising",45,8,0.1777777778
+"2025-08","Iqor Davao","Job Boards",169,26,0.1538461538
+"2025-08","Iqor Davao","Others",69,12,0.1739130435
+"2025-08","Iqor Davao","Recruitment Event",160,24,0.15
+"2025-08","Iqor Davao","Referrals",451,63,0.1396895787
+"2025-08","Iqor Davao","Social Media",3621,279,0.07705053853
+"2025-08","Iqor Fairview","Advertising",23,3,0.1304347826
+"2025-08","Iqor Fairview","Job Boards",1245,54,0.04337349398
+"2025-08","Iqor Fairview","Others",237,11,0.04641350211
+"2025-08","Iqor Fairview","Recruitment Event",274,45,0.1642335766
+"2025-08","Iqor Fairview","Referrals",1119,72,0.06434316354
+"2025-08","Iqor Fairview","Social Media",6354,309,0.04863078376
+"2025-09","Iqor Bacolod","Advertising",5,1,0.2
+"2025-09","Iqor Bacolod","Job Boards",13,1,0.07692307692
+"2025-09","Iqor Bacolod","Others",33,3,0.09090909091
+"2025-09","Iqor Bacolod","Recruitment Event",20,1,0.05
+"2025-09","Iqor Bacolod","Referrals",540,60,0.1111111111
+"2025-09","Iqor Bacolod","Social Media",1283,97,0.075604053
+"2025-09","iQor Clark","Advertising",53,8,0.1509433962
+"2025-09","iQor Clark","Job Boards",516,55,0.1065891473
+"2025-09","iQor Clark","Others",71,7,0.0985915493
+"2025-09","iQor Clark","Recruitment Event",772,64,0.0829015544
+"2025-09","iQor Clark","Referrals",2066,214,0.1035818006
+"2025-09","iQor Clark","Social Media",8558,230,0.02687543819
+"2025-09","Iqor Dasmarias","Advertising",19,2,0.1052631579
+"2025-09","Iqor Dasmarias","Job Boards",221,30,0.1357466063
+"2025-09","Iqor Dasmarias","Others",130,7,0.05384615385
+"2025-09","Iqor Dasmarias","Recruitment Event",217,43,0.198156682
+"2025-09","Iqor Dasmarias","Referrals",5789,190,0.03282086716
+"2025-09","Iqor Dasmarias","Social Media",5674,265,0.04670426507
+"2025-09","Iqor Davao","Advertising",63,7,0.1111111111
+"2025-09","Iqor Davao","Job Boards",105,15,0.1428571429
+"2025-09","Iqor Davao","Others",69,6,0.08695652174
+"2025-09","Iqor Davao","Recruitment Event",290,46,0.1586206897
+"2025-09","Iqor Davao","Referrals",1258,132,0.1049284579
+"2025-09","Iqor Davao","Social Media",7187,269,0.03742869069
+"2025-09","Iqor Fairview","Advertising",27,2,0.07407407407
+"2025-09","Iqor Fairview","Job Boards",1219,45,0.03691550451
+"2025-09","Iqor Fairview","Others",55,5,0.09090909091
+"2025-09","Iqor Fairview","Recruitment Event",177,41,0.2316384181
+"2025-09","Iqor Fairview","Referrals",2718,115,0.04231052244
+"2025-09","Iqor Fairview","Social Media",6544,260,0.03973105134
+"2025-09","Iqor Iloilo","Advertising",18,3,0.1666666667
+"2025-09","Iqor Iloilo","Job Boards",241,17,0.07053941909
+"2025-09","Iqor Iloilo","Others",52,2,0.03846153846
+"2025-09","Iqor Iloilo","Recruitment Event",45,7,0.1555555556
+"2025-09","Iqor Iloilo","Referrals",605,63,0.1041322314
+"2025-09","Iqor Iloilo","Social Media",1244,83,0.06672025723
+"2025-09","Iqor Sta Rosa","Advertising",6,1,0.1666666667
+"2025-09","Iqor Sta Rosa","Job Boards",174,12,0.06896551724
+"2025-09","Iqor Sta Rosa","Others",41,1,0.0243902439
+"2025-09","Iqor Sta Rosa","Recruitment Event",10,1,0.1
+"2025-09","Iqor Sta Rosa","Referrals",1560,61,0.0391025641
+"2025-09","Iqor Sta Rosa","Social Media",1556,80,0.05141388175
+"2025-10","Iqor Bacolod","Advertising",19,3,0.1578947368
+"2025-10","Iqor Bacolod","Job Boards",10,6,0.6
+"2025-10","Iqor Bacolod","Others",40,9,0.225
+"2025-10","Iqor Bacolod","Recruitment Event",16,1,0.0625
+"2025-10","Iqor Bacolod","Referrals",392,48,0.1224489796
+"2025-10","Iqor Bacolod","Social Media",1542,136,0.08819714656
+"2025-10","iQor Clark","Advertising",43,7,0.1627906977
+"2025-10","iQor Clark","Job Boards",263,33,0.1254752852
+"2025-10","iQor Clark","Others",99,11,0.1111111111
+"2025-10","iQor Clark","Recruitment Event",1064,39,0.03665413534
+"2025-10","iQor Clark","Referrals",2028,227,0.1119329389
+"2025-10","iQor Clark","Social Media",9114,262,0.02874698266
+"2025-10","Iqor Dasmarias","Advertising",55,3,0.05454545455
+"2025-10","Iqor Dasmarias","Job Boards",759,38,0.05006587615
+"2025-10","Iqor Dasmarias","Others",58,7,0.1206896552
+"2025-10","Iqor Dasmarias","Recruitment Event",851,41,0.0481786134
+"2025-10","Iqor Dasmarias","Referrals",6189,134,0.02165131685
+"2025-10","Iqor Dasmarias","Social Media",7599,250,0.03289906567
+"2025-10","Iqor Davao","Advertising",35,7,0.2
+"2025-10","Iqor Davao","Job Boards",94,14,0.1489361702
+"2025-10","Iqor Davao","Others",82,6,0.07317073171
+"2025-10","Iqor Davao","Recruitment Event",222,24,0.1081081081
+"2025-10","Iqor Davao","Referrals",1643,121,0.07364576993
+"2025-10","Iqor Davao","Social Media",6841,233,0.03405934805
+"2025-10","Iqor Fairview","Advertising",18,5,0.2777777778
+"2025-10","Iqor Fairview","Job Boards",1862,39,0.02094522019
+"2025-10","Iqor Fairview","Others",44,3,0.06818181818
+"2025-10","Iqor Fairview","Recruitment Event",190,40,0.2105263158
+"2025-10","Iqor Fairview","Referrals",1766,115,0.0651189128
+"2025-10","Iqor Fairview","Social Media",4663,171,0.0366716706
+"2025-10","Iqor Iloilo","Advertising",48,8,0.1666666667
+"2025-10","Iqor Iloilo","Job Boards",151,27,0.178807947
+"2025-10","Iqor Iloilo","Others",59,3,0.05084745763
+"2025-10","Iqor Iloilo","Recruitment Event",91,13,0.1428571429
+"2025-10","Iqor Iloilo","Referrals",983,100,0.1017293998
+"2025-10","Iqor Iloilo","Social Media",1681,120,0.07138607971
+"2025-10","Iqor Sta Rosa","Advertising",5,3,0.6
+"2025-10","Iqor Sta Rosa","Job Boards",339,17,0.05014749263
+"2025-10","Iqor Sta Rosa","Others",17,1,0.05882352941
+"2025-10","Iqor Sta Rosa","Recruitment Event",23,0,0
+"2025-10","Iqor Sta Rosa","Referrals",1783,47,0.0263600673
+"2025-10","Iqor Sta Rosa","Social Media",1950,106,0.05435897436
+"2025-11","Iqor Bacolod","Advertising",2,2,1
+"2025-11","Iqor Bacolod","Job Boards",38,10,0.2631578947
+"2025-11","Iqor Bacolod","Others",18,3,0.1666666667
+"2025-11","Iqor Bacolod","Recruitment Event",83,18,0.2168674699
+"2025-11","Iqor Bacolod","Referrals",328,28,0.08536585366
+"2025-11","Iqor Bacolod","Social Media",2220,185,0.08333333333
+"2025-11","iQor Clark","Advertising",16,2,0.125
+"2025-11","iQor Clark","Job Boards",187,38,0.2032085561
+"2025-11","iQor Clark","Others",63,10,0.1587301587
+"2025-11","iQor Clark","Recruitment Event",3929,28,0.007126495291
+"2025-11","iQor Clark","Referrals",3519,169,0.0480250071
+"2025-11","iQor Clark","Social Media",16961,191,0.01126112847
+"2025-11","iQor Clark","Walkin",1,0,0
+"2025-11","Iqor Dasmarias","Advertising",171,4,0.02339181287
+"2025-11","Iqor Dasmarias","Job Boards",732,47,0.06420765027
+"2025-11","Iqor Dasmarias","Others",20,3,0.15
+"2025-11","Iqor Dasmarias","Recruitment Event",896,19,0.02120535714
+"2025-11","Iqor Dasmarias","Referrals",8538,99,0.01159522136
+"2025-11","Iqor Dasmarias","Social Media",13299,258,0.01939995488
+"2025-11","Iqor Davao","Advertising",9,2,0.2222222222
+"2025-11","Iqor Davao","Job Boards",35,13,0.3714285714
+"2025-11","Iqor Davao","Others",15,1,0.06666666667
+"2025-11","Iqor Davao","Recruitment Event",26,4,0.1538461538
+"2025-11","Iqor Davao","Referrals",836,44,0.05263157895
+"2025-11","Iqor Davao","Social Media",4561,117,0.02565226924
+"2025-11","Iqor Fairview","Advertising",9,1,0.1111111111
+"2025-11","Iqor Fairview","Job Boards",350,13,0.03714285714
+"2025-11","Iqor Fairview","Others",19,1,0.05263157895
+"2025-11","Iqor Fairview","Recruitment Event",45,9,0.2
+"2025-11","Iqor Fairview","Referrals",1229,53,0.04312449146
+"2025-11","Iqor Fairview","Social Media",2592,79,0.03047839506
+"2025-11","Iqor Iloilo","Advertising",22,0,0
+"2025-11","Iqor Iloilo","Job Boards",469,16,0.03411513859
+"2025-11","Iqor Iloilo","Others",29,3,0.1034482759
+"2025-11","Iqor Iloilo","Recruitment Event",426,38,0.08920187793
+"2025-11","Iqor Iloilo","Referrals",819,85,0.1037851038
+"2025-11","Iqor Iloilo","Social Media",6701,193,0.02880167139
+"2025-11","Iqor Sta Rosa","Advertising",30,0,0
+"2025-11","Iqor Sta Rosa","Job Boards",488,20,0.04098360656
+"2025-11","Iqor Sta Rosa","Others",14,0,0
+"2025-11","Iqor Sta Rosa","Recruitment Event",227,0,0
+"2025-11","Iqor Sta Rosa","Referrals",2943,42,0.01427115189
+"2025-11","Iqor Sta Rosa","Social Media",4377,106,0.02421750057
+"2025-12","Iqor Bacolod","Advertising",3,2,0.6666666667
+"2025-12","Iqor Bacolod","Job Boards",4,0,0
+"2025-12","Iqor Bacolod","Others",2,0,0
+"2025-12","Iqor Bacolod","Recruitment Event",19,0,0
+"2025-12","Iqor Bacolod","Referrals",344,29,0.08430232558
+"2025-12","Iqor Bacolod","Social Media",661,82,0.1240544629
+"2025-12","iQor Clark","Advertising",6,1,0.1666666667
+"2025-12","iQor Clark","Job Boards",124,24,0.1935483871
+"2025-12","iQor Clark","Others",111,12,0.1081081081
+"2025-12","iQor Clark","Recruitment Event",1952,16,0.008196721311
+"2025-12","iQor Clark","Referrals",3264,127,0.03890931373
+"2025-12","iQor Clark","Social Media",16918,194,0.01146707649
+"2025-12","Iqor Dasmarias","Advertising",35,3,0.08571428571
+"2025-12","Iqor Dasmarias","Job Boards",618,32,0.05177993528
+"2025-12","Iqor Dasmarias","Others",20,1,0.05
+"2025-12","Iqor Dasmarias","Recruitment Event",1888,6,0.003177966102
+"2025-12","Iqor Dasmarias","Referrals",6547,71,0.01084466168
+"2025-12","Iqor Dasmarias","Social Media",16396,196,0.01195413515
+"2025-12","Iqor Davao","Advertising",8,1,0.125
+"2025-12","Iqor Davao","Job Boards",12,2,0.1666666667
+"2025-12","Iqor Davao","Others",6,3,0.5
+"2025-12","Iqor Davao","Recruitment Event",4,0,0
+"2025-12","Iqor Davao","Referrals",549,15,0.02732240437
+"2025-12","Iqor Davao","Social Media",1309,49,0.03743315508
+"2025-12","Iqor Fairview","Advertising",3,1,0.3333333333
+"2025-12","Iqor Fairview","Job Boards",150,10,0.06666666667
+"2025-12","Iqor Fairview","Others",8,0,0
+"2025-12","Iqor Fairview","Recruitment Event",13,2,0.1538461538
+"2025-12","Iqor Fairview","Referrals",1189,43,0.03616484441
+"2025-12","Iqor Fairview","Social Media",1507,43,0.02853351029
+"2025-12","Iqor Iloilo","Advertising",13,0,0
+"2025-12","Iqor Iloilo","Job Boards",305,3,0.009836065574
+"2025-12","Iqor Iloilo","Others",12,1,0.08333333333
+"2025-12","Iqor Iloilo","Recruitment Event",29,3,0.1034482759
+"2025-12","Iqor Iloilo","Referrals",634,52,0.08201892744
+"2025-12","Iqor Iloilo","Social Media",11536,76,0.006588072122
+"2025-12","Iqor Sta Rosa","Advertising",2,0,0
+"2025-12","Iqor Sta Rosa","Job Boards",440,25,0.05681818182
+"2025-12","Iqor Sta Rosa","Others",5,0,0
+"2025-12","Iqor Sta Rosa","Recruitment Event",17,0,0
+"2025-12","Iqor Sta Rosa","Referrals",3137,28,0.008925725215
+"2025-12","Iqor Sta Rosa","Social Media",5202,130,0.02499038831
+"2026-01","Iqor Bacolod","Advertising",10,3,0.3
+"2026-01","Iqor Bacolod","Job Boards",93,15,0.1612903226
+"2026-01","Iqor Bacolod","Others",45,8,0.1777777778
+"2026-01","Iqor Bacolod","Recruitment Event",40,6,0.15
+"2026-01","Iqor Bacolod","Referrals",729,89,0.122085048
+"2026-01","Iqor Bacolod","Social Media",3451,181,0.05244856563
+"2026-01","iQor Clark","Advertising",24,0,0
+"2026-01","iQor Clark","Job Boards",401,41,0.102244389
+"2026-01","iQor Clark","Others",190,6,0.03157894737
+"2026-01","iQor Clark","Recruitment Event",4304,37,0.008596654275
+"2026-01","iQor Clark","Referrals",5648,193,0.0341713881
+"2026-01","iQor Clark","Social Media",23278,288,0.01237219692
+"2026-01","Iqor Dasmarias","Advertising",28,3,0.1071428571
+"2026-01","Iqor Dasmarias","Job Boards",1140,46,0.04035087719
+"2026-01","Iqor Dasmarias","Others",38,4,0.1052631579
+"2026-01","Iqor Dasmarias","Recruitment Event",2214,51,0.02303523035
+"2026-01","Iqor Dasmarias","Referrals",7257,115,0.01584676864
+"2026-01","Iqor Dasmarias","Social Media",21637,303,0.0140037898
+"2026-01","Iqor Davao","Advertising",10,3,0.3
+"2026-01","Iqor Davao","Job Boards",100,11,0.11
+"2026-01","Iqor Davao","Others",27,3,0.1111111111
+"2026-01","Iqor Davao","Recruitment Event",5,0,0
+"2026-01","Iqor Davao","Referrals",1040,39,0.0375
+"2026-01","Iqor Davao","Social Media",5861,91,0.01552636069
+"2026-01","Iqor Fairview","Advertising",18,3,0.1666666667
+"2026-01","Iqor Fairview","Job Boards",658,11,0.01671732523
+"2026-01","Iqor Fairview","Others",56,2,0.03571428571
+"2026-01","Iqor Fairview","Recruitment Event",54,3,0.05555555556
+"2026-01","Iqor Fairview","Referrals",2531,59,0.02331094429
+"2026-01","Iqor Fairview","Social Media",5048,88,0.01743264659
+"2026-01","Iqor Iloilo","Advertising",7,0,0
+"2026-01","Iqor Iloilo","Job Boards",281,12,0.04270462633
+"2026-01","Iqor Iloilo","Others",84,7,0.08333333333
+"2026-01","Iqor Iloilo","Recruitment Event",908,9,0.009911894273
+"2026-01","Iqor Iloilo","Referrals",3785,96,0.02536327609
+"2026-01","Iqor Iloilo","Social Media",19054,160,0.008397186942
+"2026-01","Iqor Iloilo","Walkin",11,1,0.09090909091
+"2026-01","Iqor Sta Rosa","Advertising",4,1,0.25
+"2026-01","Iqor Sta Rosa","Job Boards",1097,20,0.01823154057
+"2026-01","Iqor Sta Rosa","Others",20,3,0.15
+"2026-01","Iqor Sta Rosa","Recruitment Event",24,4,0.1666666667
+"2026-01","Iqor Sta Rosa","Referrals",3075,49,0.01593495935
+"2026-01","Iqor Sta Rosa","Social Media",8995,137,0.01523068371
+"2026-02","Iqor Bacolod","Advertising",10,1,0.1
+"2026-02","Iqor Bacolod","Job Boards",11,2,0.1818181818
+"2026-02","Iqor Bacolod","Others",3,0,0
+"2026-02","Iqor Bacolod","Recruitment Event",65,1,0.01538461538
+"2026-02","Iqor Bacolod","Referrals",536,13,0.02425373134
+"2026-02","Iqor Bacolod","Social Media",1213,26,0.02143446002
+"2026-02","iQor Clark","Advertising",29,4,0.1379310345
+"2026-02","iQor Clark","Job Boards",452,41,0.0907079646
+"2026-02","iQor Clark","Others",55,1,0.01818181818
+"2026-02","iQor Clark","Recruitment Event",1844,28,0.01518438178
+"2026-02","iQor Clark","Recruitment Partner",29,0,0
+"2026-02","iQor Clark","Referrals",5268,135,0.02562642369
+"2026-02","iQor Clark","Social Media",20308,241,0.01186724444
+"2026-02","Iqor Dasmarias","Advertising",50,3,0.06
+"2026-02","Iqor Dasmarias","Job Boards",1211,32,0.02642444261
+"2026-02","Iqor Dasmarias","Others",15,3,0.2
+"2026-02","Iqor Dasmarias","Recruitment Event",2153,37,0.01718532281
+"2026-02","Iqor Dasmarias","Recruitment Partner",42,0,0
+"2026-02","Iqor Dasmarias","Referrals",4701,47,0.009997872793
+"2026-02","Iqor Dasmarias","Social Media",18911,204,0.01078737243
+"2026-02","Iqor Davao","Advertising",4,0,0
+"2026-02","Iqor Davao","Job Boards",186,2,0.01075268817
+"2026-02","Iqor Davao","Others",9,0,0
+"2026-02","Iqor Davao","Recruitment Event",50,4,0.08
+"2026-02","Iqor Davao","Recruitment Partner",1,0,0
+"2026-02","Iqor Davao","Referrals",718,10,0.0139275766
+"2026-02","Iqor Davao","Social Media",13020,44,0.003379416283
+"2026-02","Iqor Fairview","Advertising",8,0,0
+"2026-02","Iqor Fairview","Job Boards",568,4,0.007042253521
+"2026-02","Iqor Fairview","Others",8,0,0
+"2026-02","Iqor Fairview","Recruitment Event",64,0,0
+"2026-02","Iqor Fairview","Referrals",1400,0,0
+"2026-02","Iqor Fairview","Social Media",5293,5,0.0009446438693
+"2026-02","Iqor Iloilo","Advertising",3,0,0
+"2026-02","Iqor Iloilo","Job Boards",859,8,0.009313154831
+"2026-02","Iqor Iloilo","Others",31,0,0
+"2026-02","Iqor Iloilo","Recruitment Event",1313,10,0.00761614623
+"2026-02","Iqor Iloilo","Recruitment Partner",13,1,0.07692307692
+"2026-02","Iqor Iloilo","Referrals",6879,21,0.003052769298
+"2026-02","Iqor Iloilo","Social Media",11453,53,0.004627608487
+"2026-02","Iqor Sta Rosa","Advertising",7,4,0.5714285714
+"2026-02","Iqor Sta Rosa","Job Boards",763,18,0.02359108781
+"2026-02","Iqor Sta Rosa","Others",1,1,1
+"2026-02","Iqor Sta Rosa","Recruitment Event",14,2,0.1428571429
+"2026-02","Iqor Sta Rosa","Referrals",2740,51,0.01861313869
+"2026-02","Iqor Sta Rosa","Social Media",8485,126,0.01484973483
