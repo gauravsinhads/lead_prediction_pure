@@ -66,7 +66,7 @@ train_end = current_month - pd.DateOffset(months=3)
 train_df = df[df['month_year'] <= train_end]
 
 # -------------------------------
-# TRAIN MODEL (CACHE SAFE)
+# TRAIN MODEL
 # -------------------------------
 @st.cache_resource
 def train_xgboost(train_df):
@@ -91,16 +91,13 @@ def train_xgboost(train_df):
     return model
 
 # -------------------------------
-# PREDICTION (NO CACHE → FIX)
+# PREDICTION
 # -------------------------------
 def generate_predictions(model, df, prediction_month):
 
     latest = df.sort_values('month_year').groupby(
         ['CAMPAIGN_SITE','BROADSOURCE']
     ).tail(1)
-
-    if latest.empty:
-        return pd.DataFrame(columns=['CAMPAIGN_SITE','BROADSOURCE','Predicted_Leads'])
 
     pred_df = latest.copy()
 
@@ -120,7 +117,7 @@ model = train_xgboost(train_df)
 pred_df = generate_predictions(model, df, prediction_month)
 
 # -------------------------------
-# HISTORICAL METRICS
+# HISTORICAL METRICS (UNCHANGED)
 # -------------------------------
 hist = df.groupby(['CAMPAIGN_SITE','BROADSOURCE']).agg({
     'Leads':'sum',
@@ -132,7 +129,7 @@ hist['conversion_rate'] = hist['Hired'] / hist['Leads']
 hist = hist.replace([np.inf, -np.inf], 0).fillna(0)
 
 # -------------------------------
-# FINAL LEADS FUNCTION
+# FINAL LEADS FUNCTION (PURE ML)
 # -------------------------------
 def compute_final_leads(base, df, site=None):
 
@@ -141,14 +138,12 @@ def compute_final_leads(base, df, site=None):
     for _, row in base.iterrows():
 
         source = row['BROADSOURCE']
-
-        required = float(row.get('required_leads', 0))
         predicted = float(row.get('Predicted_Leads', 0))
 
-        required = 0 if np.isnan(required) or np.isinf(required) else required
-        predicted = 0 if np.isnan(predicted) or np.isinf(predicted) else predicted
+        if np.isnan(predicted) or np.isinf(predicted):
+            predicted = 0
 
-        final = max(required, predicted)
+        final = predicted  # ✅ CHANGED HERE
 
         if site:
             max_leads = df[
@@ -181,7 +176,7 @@ def compute_final_leads(base, df, site=None):
     return final_df[['BROADSOURCE','Lead Count Required']]
 
 # -------------------------------
-# ROLLING ACCURACY
+# ROLLING ACCURACY (UPDATED)
 # -------------------------------
 rolling_results = []
 
@@ -200,11 +195,7 @@ for i in range(3, 0, -1):
     base = base.merge(pred_temp, on=['CAMPAIGN_SITE','BROADSOURCE'], how='left')
     base['Predicted_Leads'] = base['Predicted_Leads'].fillna(0)
 
-    base['required_leads'] = base['Hired'] / base['conversion_rate']
-    base['required_leads'] = base['required_leads'].replace([np.inf, -np.inf], 0).fillna(0)
-
-    base['final_leads'] = base[['required_leads','Predicted_Leads']].max(axis=1)
-    base['final_leads'] = base['final_leads'].replace([np.inf, -np.inf], 0).fillna(0)
+    base['final_leads'] = base['Predicted_Leads']  # ✅ CHANGED
 
     actual_total = base['Leads'].sum()
     predicted_total = base['final_leads'].sum()
@@ -223,7 +214,7 @@ for i in range(3, 0, -1):
 rolling_accuracy_df = pd.DataFrame(rolling_results)
 
 # -------------------------------
-# SITE-LEVEL ACCURACY
+# SITE-LEVEL ACCURACY (UPDATED)
 # -------------------------------
 site_level_results = []
 
@@ -242,11 +233,7 @@ for i in range(3, 0, -1):
     base = base.merge(pred_temp, on=['CAMPAIGN_SITE','BROADSOURCE'], how='left')
     base['Predicted_Leads'] = base['Predicted_Leads'].fillna(0)
 
-    base['required_leads'] = base['Hired'] / base['conversion_rate']
-    base['required_leads'] = base['required_leads'].replace([np.inf, -np.inf], 0).fillna(0)
-
-    base['final_leads'] = base[['required_leads','Predicted_Leads']].max(axis=1)
-    base['final_leads'] = base['final_leads'].replace([np.inf, -np.inf], 0).fillna(0)
+    base['final_leads'] = base['Predicted_Leads']  # ✅ CHANGED
 
     for site_name, grp in base.groupby('CAMPAIGN_SITE'):
 
@@ -268,9 +255,9 @@ for i in range(3, 0, -1):
 site_level_accuracy_df = pd.DataFrame(site_level_results)
 
 # -------------------------------
-# STREAMLIT UI
+# STREAMLIT UI (UNCHANGED)
 # -------------------------------
-st.title("📊 Lead Prediction Calculator (XGBoost - Stable & Fast)")
+st.title("📊 Lead Prediction Calculator (Pure XGBoost Output)")
 
 st.info(f"📅 Prediction Month: {prediction_month.strftime('%Y-%m')}")
 
@@ -291,47 +278,21 @@ target_hired = st.number_input("Enter Target HIRED", min_value=0, step=1)
 if st.button("Predict"):
 
     if site == "All Sites":
-
-        base = df.groupby('BROADSOURCE').agg({
-            'Leads':'sum',
-            'Hired':'sum'
-        }).reset_index()
-
-        base['share_hired'] = base['Hired'] / base['Hired'].sum()
-        base['conversion_rate'] = base['Hired'] / base['Leads']
-
-        base['target_hired'] = base['share_hired'] * target_hired
-        base['required_leads'] = base['target_hired'] / base['conversion_rate']
-        base['required_leads'] = base['required_leads'].replace([np.inf, -np.inf], 0).fillna(0)
-
         xgb_agg = pred_df.groupby('BROADSOURCE')['Predicted_Leads'].sum().reset_index()
-
-        base = base.merge(xgb_agg, on='BROADSOURCE', how='left')
-        base['Predicted_Leads'] = base['Predicted_Leads'].fillna(0)
-
-        output = compute_final_leads(base, df, site=None)
+        output = xgb_agg.copy()
         output['CAMPAIGN_SITE'] = "All Sites"
+        output.rename(columns={'Predicted_Leads':'Lead Count Required'}, inplace=True)
 
     else:
-        base = hist[hist['CAMPAIGN_SITE'] == site].copy()
-
-        base['target_hired'] = base['share_hired'] * target_hired
-        base['required_leads'] = base['target_hired'] / base['conversion_rate']
-        base['required_leads'] = base['required_leads'].replace([np.inf, -np.inf], 0).fillna(0)
-
         xgb_site = pred_df[pred_df['CAMPAIGN_SITE'] == site]
-
-        base = base.merge(xgb_site[['BROADSOURCE','Predicted_Leads']], on='BROADSOURCE', how='left')
-        base['Predicted_Leads'] = base['Predicted_Leads'].fillna(0)
-
-        output = compute_final_leads(base, df, site=site)
-        output['CAMPAIGN_SITE'] = site
+        output = xgb_site.copy()
+        output.rename(columns={'Predicted_Leads':'Lead Count Required'}, inplace=True)
 
     output['Lead Count Required'] = output['Lead Count Required'].round().astype(int)
 
     final_output = output[['CAMPAIGN_SITE','BROADSOURCE','Lead Count Required']]
 
-    st.subheader("📈 Final Lead Plan")
+    st.subheader("📈 Final Lead Plan (Pure ML)")
     st.dataframe(final_output)
 
     st.bar_chart(final_output.set_index('BROADSOURCE')['Lead Count Required'])
